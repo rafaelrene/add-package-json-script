@@ -38,7 +38,7 @@ add-project-script -n "prestart" -v "node scripts/setup-hooks.js"
 
 ### API
 
-Calling this from the node is equally simple. Simple pass an object of options.
+Calling this from the node is equally simple. Simply pass an object of options.
 
 ```javascript
 import addScript from 'add-project-script';
