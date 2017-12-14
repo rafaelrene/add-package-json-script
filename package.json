@@ -1,5 +1,5 @@
 {
-  "name": "add-script-to-superproject",
+  "name": "add-project-script",
   "version": "1.0.0",
   "main": "dist/index.js",
   "repository": "git@github.com:rafaelrene/add-package-json-script.git",
