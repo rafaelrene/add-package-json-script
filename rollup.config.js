@@ -12,6 +12,7 @@ export default {
   plugins: [
     resolve({ extensions: ['.js', '.json'] }),
     commonjs({ sourceMap: false }),
-    babel({ include: 'src/**' }),
+    babel({ include: 'src/**', externalHelpers: false, runtimeHelpers: true }),
   ],
+  banner: '#!/usr/bin/env node',
 };
