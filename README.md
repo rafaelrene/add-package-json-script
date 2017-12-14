@@ -50,9 +50,10 @@ addScript({ name: 'prestart', value: 'node scripts/setup-hooks.js' });
 
 Here is a list of all available commands.
 
-| Short | Long | Description | Type |
-| -n | --name | name of the script | String
-| -v | --value | value of the script | String
-| -p | --path | specify the path to package.json | String
-| -f | --force | if script with same name exists, overwrite it | Boolean (default: false)
-| | --no-throws | if package.json file is not found, do not throw an error | Boolean (default: false)
+| Short | Long        | Description                                              | Type                     |
+| ----- | ----------- | -------------------------------------------------------- | ------------------------ |
+| -n    | --name      | name of the script                                       | String                   |
+| -v    | --value     | value of the script                                      | String                   |
+| -p    | --path      | specify the path to package.json                         | String                   |
+| -f    | --force     | if script with same name exists, overwrite it            | Boolean (default: false) |
+|       | --no-throws | if package.json file is not found, do not throw an error | Boolean (default: false) |
