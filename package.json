@@ -10,8 +10,7 @@
   },
   "scripts": {
     "build": "rollup -c rollup.config.js",
-    "start": "yarn build -- --watch",
-    "publish": "np"
+    "start": "yarn build -- --watch"
   },
   "dependencies": {
     "chalk": "^2.3.0",
